@@ -1,0 +1,41 @@
+Chat CROM
+Notes de mise à jour V3
+
+
+
+Les mises à jour de la version 3 incluent bien avidement les mises à jour de la version 2.5.
+Il est fortement recommandé de désinstaller les versions précédentes avant d'effectuer l'installation de la nouvelle version.
+
+1. Amélioration du programme.
+
+	1.1. Options de configuration.
+
+	Désormais, depuis la fenêtre de login, ou depuis l'interface principale du programme, vous pouvez accéder à une fenêtre de configuration qui vous permettra de configurer le réseau depuis lequel vous vous connectez à la base de données.
+	Vous pouvez aussi désormais choisir trois options pour les alarmes  : Pas d'alarme, le son par défaut qui est le bip que vous entendiez dans les versions précédentes, ou alors choisir pour alarme un fichier wav stocké sur votre disque dur.
+	Cette configuration est sauvegardée et le programme se souviens de vos choix d'un lancement à l'autre.
+	Notez que le changement est immédiatement répercuté dans le fichier d'initialisation du programme. De ce fait, le simple fait d’accéder à la fenêtre de configuration vous obligera à redémarrer le programme après validation, que des changements aient été faits ou non. Après un message d'information, puis de déconnexion si vous accédez à cette fenêtre depuis le programme principal, le programme se fermera automatiquement. Il vous suffit de le relancer.
+
+	1.2. Changements dans la structure du répertoire d'installation.
+
+	Les fichiers images, son ainsi que le fichier de configuration du programme ne sont plus dans le répertoire racine du programme. Ils ont été déplacés dans un sous répertoire nommé Ressources. Il est fortement recommandé de ne rien y modifier. Certaines opérations malencontreuses pourraient empêcher le programme de s’exécuter normalement.
+
+
+Chat CROM
+Notes de mise à jour V2.5
+
+
+
+ 1.	Correction de bug
+
+	1.1. Correction d'une erreur concernant la coloration des messages. Désormais, cette coloration s'effectue correctement, à savoir    :
+			Coloration rosée    : les messages envoyé par l'administrateur.
+			Coloration grisée    : les messages qui vous sont envoyés, ce sont des messages privés.
+			Coloration Blanc cassée    : les messages que vous avez postés.
+			Coloration blanche    : les messages publics reçus par tout le monde.
+
+	1.2. Correction d'un bug concernant l'affichage des listes des utilisateurs. Désormais, les listes, dans la liste utilisateurs connectés, dans la liste déroulante de connexion ainsi que dans la liste d'envoi d'un nouveau message, sont triés correctement par ordre alphabétique
+
+ 2.	Amélioration de l'interface
+
+	2.1 Désormais, vous pouvez envoyer un message à un utilisateur spécifique en double cliquant sur son nom dans la liste des utilisateurs connectés ou non. Vous avez toujours la possibilité de modifier ce choix par la liste déroulante de la fenêtre d'envoi d'un nouveau message.
+	2.2 Désormais, vous pouvez afficher les détails d'un message en double-cliquant sur ce dernier directement dans la zone principale d'affichage des messages. La fonction sélection plus action sur le bouton détail continue, bien sur, de fonctionner.
