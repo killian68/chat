@@ -1,0 +1,38 @@
+Database structure
+
+database name alarme
+
+
++------------------+
+| Tables_in_alarme |
++------------------+
+| message          |
+| users            |
++------------------+
+
+message structure :
+
++-----------+--------------+------+-----+---------+----------------+
+| Field     | Type         | Null | Key | Default | Extra          |
++-----------+--------------+------+-----+---------+----------------+
+| idmessage | int(11)      | NO   | PRI | NULL    | auto_increment |
+| date      | varchar(16)  | NO   |     | NULL    |                |
+| long_desc | varchar(600) | YES  |     |         |                |
+| emet      | varchar(10)  | NO   |     | NULL    |                |
+| dest      | varchar(10)  | NO   |     | NULL    |                |
++-----------+--------------+------+-----+---------+----------------+
+
+users structure :
+
++----------+-------------+------+-----+---------+----------------+
+| Field    | Type        | Null | Key | Default | Extra          |
++----------+-------------+------+-----+---------+----------------+
+| idusers  | int(11)     | NO   | PRI | NULL    | auto_increment |
+| username | varchar(10) | NO   |     | NULL    |                |
+| actif    | varchar(1)  | NO   |     | NULL    |                |
+| pwd      | varchar(10) | NO   |     | NULL    |                |
+| usermail | varchar(50) | NO   |     | NULL    |                |
++----------+-------------+------+-----+---------+----------------+
+
+The user used in the programm must have read and write privileges
+
